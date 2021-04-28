@@ -1,0 +1,73 @@
+/**
+*
+*/
+
+/**
+ * Don't forget to prefix your containers with your own identifier
+ * to avoid any conflicts with others containers.
+ */
+
+#content .tab-pane:first-child .panel {
+	border-top-left-radius: 0;
+}
+
+.till-payments-header .text-branded,
+.till-payments-content .text-branded {
+	color: #00aff0;
+}
+
+.till-payments-header h4,
+.till-payments-content h4,
+.till-payments-content h5 {
+	margin: 2px 0;
+	color: #00aff0;
+	font-size: 1.8em;
+}
+
+.till-payments-header h4 {
+	margin-top: 5px;
+}
+
+.till-payments-header .col-md-6 {
+	margin-top: 18px;
+}
+
+.till-payments-content h4 {
+	margin-bottom: 10px;
+}
+
+.till-payments-content h5 {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.till-payments-content h6 {
+	font-size: 1.3em;
+	margin: 1px 0 4px 0;
+}
+
+.till-payments-header > .col-md-4 {
+	height: 65px;
+	vertical-align: middle;
+	border-left: 1px solid #ddd;
+}
+
+.till-payments-header > .col-md-4:first-child {
+	border-left: none;
+}
+
+.till-payments-header #create-account-btn {
+	margin-top: 14px;
+}
+
+.till-payments-content dd + dt {
+	margin-top: 5px;
+}
+
+.till-payments-content ul {
+	padding-left: 15px;
+}
+
+.till-payments-content .ul-spaced li {
+	margin-bottom: 5px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "till-payments/till-payments-prestashop",
+  "description": "",
+  "type": "prestashop-plugin",
+  "license": "",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TillPayments\\Prestashop\\PaymentMethod\\": "./payment_method/",
+      "TillPayments\\Prestashop\\": "./",
+      "TillPayments\\Client\\": "./client/"
+    }
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  }
+}
