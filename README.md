@@ -1,5 +1,9 @@
 # Till Payments PrestaShop Extension
 
+## Requirements
+PHP 7.1+ <br>
+PrestaShop 1.7+ Requirements
+
 ## Installation
 
 1. Go to `Modules` > `Module Manager` in your shop's admin area.
